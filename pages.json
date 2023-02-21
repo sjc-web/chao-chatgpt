@@ -1,0 +1,67 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/main/index/index",
+			"style": {
+				"navigationBarTitleText": "AI问答",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/main/form/index",
+			"style": {
+				"navigationBarTitleText": "AI问答",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#26B3A0",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/main/answer/index",
+			"style": {
+				"navigationBarTitleText": "AI问答",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#26B3A0",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/main/webview/webview",
+			"style": {
+				"navigationBarTitleText": "AI问答",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#26B3A0",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/main/duihua/duihua",
+			"style": {
+				"navigationBarTitleText": "AI对话",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#26B3A0",
+				"navigationBarTextStyle": "white"
+			}
+
+		}
+	    ,{
+            "path" : "pages/main/duihuas/duihuas",
+            "style" :                                                                                    
+            {
+               	"navigationBarTitleText": "AI对话",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#26B3A0",
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "AI问答",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#ffffff"
+	},
+	"uniIdRouter": {}
+}

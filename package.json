@@ -1,0 +1,23 @@
+{
+    "devDependencies": {
+        "sass": "^1.56.2",
+        "sass-loader": "^10.4.1"
+    },
+    "dependencies": {
+        "uview-ui": "^2.0.31"
+    },
+    "id": "Coder-ChatGPT",
+    "name": "火爆全网的ChatGPT页面模板，让AI回答你的任何问题！",
+    "displayName": "火爆全网的ChatGPT页面模板，让AI回答你的任何问题！",
+    "version": "1.0.6",
+    "description": "火爆全网的ChatGPT，微信小程序纯页面模板，分享只为交个朋友",
+    "keywords": [
+        "ChatGPT"
+    ],
+    "dcloudext": {
+        "category": [
+            "uni-app前端模板",
+            "uni-app前端项目模板"
+        ]
+    }
+}
